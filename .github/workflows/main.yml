@@ -48,7 +48,7 @@ jobs:
           aws-region: sa-east-1
 
       - name: Configurar o kubectl
-        run: aws eks update-kubeconfig --name eks-fakeshop
+        run: aws eks update-kubeconfig --name eks-aula
 
       - name: Deploy dos manifestos do Kubernetes
         uses: Azure/k8s-deploy@v5
